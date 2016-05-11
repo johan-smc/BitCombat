@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Test files</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="frmt.css">
+
+</head>
+<body>
+<div id="ac"></div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <form role="form">
+          <div class="form-group">
+            <label for="comment">Code:</label>
+            <textarea class="form-control" rows="5" id="in" placeholder="write here your code"></textarea>
+
+          </div>
+          <div class="form-group">
+            <button type="button" class ="btn btn-info" onclick="llenar()">run
+            </button>
+            <button type="button" class ="btn btn-info" onclick="borrar()">borrar
+            </button>
+            <script src="nn.js"></script>
+          </div>
+      </form>
+    </div>
+    <div class="col-sm-6" id="mm">
+      <iframe class="embed-responsive-item" src="run.html" width="100%"></iframe>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
