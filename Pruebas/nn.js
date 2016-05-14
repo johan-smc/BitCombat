@@ -16,6 +16,8 @@ function myFunction() {
     var t = document.createTextNode("alert('Hello World!')");
     x.appendChild(t);
     document.body.appendChild(x);
+    var v = getElementById("pre");
+    v.innerHTML = "Hola";
 }
 function borrar()
 {
