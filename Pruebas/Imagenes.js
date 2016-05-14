@@ -18,6 +18,8 @@ function actualizar(){
   motor_Viso.src = "Nave/Motor/Viso/Motor_Viso_" + indxCubierta_Viso + ".png";
   var motor_Borde = document.createElement("img");
   motor_Borde.src = "Nave/Motor/Motor_Borde.png"
+  var motor_TK = document.createElement("img");
+  motor_TK.src = "Nave/Motor/Motor_TK.png"
 
   var arma_Base = document.createElement("img");
   arma_Base.src = "Nave/Arma/Base/Arma_Base_" + indxArma + ".png";
@@ -35,6 +37,7 @@ function actualizar(){
       ctx.drawImage(cubierta_Borde, 0, 0, canvas.width, canvas.height);
       ctx.drawImage(motor_Base, 0, 0, canvas.width, canvas.height);
       ctx.drawImage(motor_Viso, 0, 0, canvas.width, canvas.height);
+      ctx.drawImage(motor_TK, 0, 0, canvas.width, canvas.height);
       ctx.drawImage(motor_Borde, 0, 0, canvas.width, canvas.height);
       ctx.drawImage(arma_Base, 0, 0, canvas.width, canvas.height);
       ctx.drawImage(arma_Viso, 0, 0, canvas.width, canvas.height);
