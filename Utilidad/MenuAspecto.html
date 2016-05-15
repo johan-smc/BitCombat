@@ -11,25 +11,25 @@
 
 </head>
 
-<body onload="actualizar()">
+<body>
 
-  <script src="Imagenes.js"></script>
+  <script src="Render.js"></script>
 
   <div class="container">
     <div class="jumbotron">
       <h1>Presentación</h1>
-      <canvas id="Canvas" width="300" height="300" style="border:1px solid #d3d3d3;">
+      <canvas id="Canvas" width="300" height="300">
     </div>
     <div class="row">
-      
+
       <div class="col-sm-4">
         <div id="Cubierta" class="row">
           <div id="lblCubierta" class="col-md-4">
             <h4>Cubierta</h4>
           </div>
           <div id="SelectCubierta" class="col-md-4">
-              <button id="AnteriorCubierta" onclick="anteriorCubierta()"> < </button>
-              <button id="SiguienteCubierta" onclick="siguienteCubierta()"> > </button>
+              <button id="AnteriorCubierta"> < </button>
+              <button id="SiguienteCubierta"> > </button>
           </div>
         </div>
       </div>
@@ -41,8 +41,8 @@
               <h4>Motor</h4>
           </div>
           <div id="SelectMotor" class="col-md-4">
-              <button id="AnteriorMotor" onclick="anteriorMotor()"><</button>
-              <button id="SiguienteMotor" onclick="siguienteMotor()">></button>
+              <button id="AnteriorMotor"> < </button>
+              <button id="SiguienteMotor"> > </button>
           </div>
         </div>
       </div>
@@ -54,8 +54,8 @@
             <h4>Arma</h4>
           </div>
           <div id="SelectArma" class="col-md-4">
-              <button id="AnteriorArma" onclick="anteriorArma()"><</button>
-              <button id="SiguienteArma" onclick="siguienteArma()">></button>
+              <button id="AnteriorArma"> < </button>
+              <button id="SiguienteArma"> > </button>
           </div>
         </div>
       </div>
