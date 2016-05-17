@@ -18,7 +18,15 @@
   <div class="container">
     <div class="jumbotron">
       <h1>Presentación</h1>
-      <canvas id="Canvas" width="300" height="300">
+      <div id="Escena">
+        <canvas id="Cabina" width="300" height="300"></canvas>
+        <canvas id="Cubierta" width="300" height="300"></canvas>
+        <canvas id="Cubierta_Borde" width="300" height="300"></canvas>
+        <canvas id="Motor" width="300" height="300"></canvas>
+        <canvas id="Motor_Borde" width="300" height="300"></canvas>
+        <canvas id="Arma" width="300" height="300"></canvas>
+        <canvas id="Arma_Borde" width="300" height="300"></canvas>
+      </div>
     </div>
     <div class="row">
 
@@ -62,5 +70,21 @@
 
     </div>
   </div>
+
+  <style>
+    #Escena {
+      width: 300px;
+      height: 300px;
+      position: relative;
+    }
+    canvas { position: absolute; }
+    #Cabina { z-index: 1 }
+    #Cubierta { z-index: 2 }
+    #Cubierta_Borde { z-index: 3 }
+    #Motor { z-index: 4 }
+    #Motor_Borde { z-index: 5 }
+    #Arma { z-index: 6 }
+    #Arma_Borde { z-index: 7 }
+  </style>
 
 </html>
